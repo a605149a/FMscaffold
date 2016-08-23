@@ -1,8 +1,8 @@
 #Compile
 
 Before installing this version of StriDe, TBB library is needed. ( https://www.threadingbuildingblocks.org )
-
-
+	
+	(root)sudo yum install tbb
 	1. ./autogen.sh 
 	2. ./configure
 	3. Add "-ltbb" into LIBS on "FMscaffold/StriDe/Makefile".
